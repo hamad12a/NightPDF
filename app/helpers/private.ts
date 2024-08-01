@@ -42,7 +42,7 @@ function setupTab(tab: Tab, tabCssKey: Map<Tab, string>, debug = false) {
 		content?.executeJavaScript(keyInterceptor);
 		let style = "div#viewer .page {";
 		style +=
-			"filter: brightness(0.91) grayscale(0.95) invert(0.95) sepia(0.55) hue-rotate(180deg);";
+			"filter: brightness(0.90) grayscale(0.95) invert(0.95) sepia(0.55) hue-rotate(180deg);";
 		style += "border-image: none;";
 		style += "}";
 		// @ts-ignore
