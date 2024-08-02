@@ -298,7 +298,7 @@ function nightpdf_default_settings(version: string): NightPDFSettings {
 		version: version,
 		general: {
 			MaximizeOnOpen: true,
-			DisplayThumbs: true,
+			DisplayThumbs: false,
 		},
 		keybinds: {
 			OpenWindow: {
