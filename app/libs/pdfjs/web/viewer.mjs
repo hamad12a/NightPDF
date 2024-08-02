@@ -663,11 +663,11 @@ const defaultOptions = {
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   enableHighlightEditor: {
-    value: false,
+    value: true,
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   enableHighlightFloatingButton: {
-    value: false,
+    value: true,
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   enablePermissions: {
@@ -1496,7 +1496,7 @@ class BasePreferences {
     pageColorsBackground: "Canvas",
     pageColorsForeground: "CanvasText",
     pdfBugEnabled: false,
-    sidebarViewOnLoad: 0,
+    sidebarViewOnLoad: -1,
     scrollModeOnLoad: -1,
     spreadModeOnLoad: -1,
     textLayerMode: 1,
